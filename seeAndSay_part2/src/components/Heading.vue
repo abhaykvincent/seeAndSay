@@ -10,6 +10,10 @@ export default {
             type: String,
         },
     },
+    mounted(){
+    var HeaderImg = document.getElementById("header");
+        HeaderImg.style.background= 'url(https://i.ytimg.com/vi/C2Vwn3pxUPg/maxresdefault.jpg)';
+    }
 }
 </script>
 <style>
